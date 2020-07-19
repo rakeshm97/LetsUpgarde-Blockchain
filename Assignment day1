@@ -1,0 +1,19 @@
+what is your understanding of blockchain?
+Ans.- If this technology is so complex, why call it “blockchain?” At its most basic level, blockchain is literally just a chain of blocks, but not in the traditional sense of         those words. When we say the words “block” and “chain” in this context, we are actually talking about digital information (the “block”) stored in a public database (the         “chain”).
+
+what is core problem blockchain Trying to solve solves?
+Ans.- 1) Blockchain Addresses The Problem Of Data Loss Due To Hardware Or Connectivity Issues
+      2) Blockchain Addresses The Problem Of Data Corruption Due To Intermittent Hardware Or Connectivity Issues
+      3) Blockchain Addresses The Problem Of Data Security And Trust By Making The Ledger Public
+
+What are the few features which blockchin gives you?
+Ans.- 1) Cannot be Corrupted
+	  2) Decentralized Technology
+	  3) Enhanced Security
+	  4) Distributed Ledgers
+	  
+What all things block contain?
+Ans.- 1) Block Number
+      2) Transaction records
+	  3) Previous block signeture
+	  4) mining key
