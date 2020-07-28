@@ -1,0 +1,27 @@
+#Blockcahin
+
+smart deplayment contract can be found at Address- 0x913908A7fF74F8Eb9577FF8088D388F9fE40d8B3
+Ropsten Address  https://ropsten.etherscan.io/address/0x913908a7ff74f8eb9577ff8088d388f9fe40d8b3
+
+
+
+Smart contract for Report Card Solidity Code.
+
+pragma solidity ^0.4.17 <0.6.12;
+contract ReportCard{
+    string public Name;
+    uint public RollNo;
+    string public Batch;
+    uint public MarksOf4Subjects;
+    bool public passfail;
+    function ReportCard(string newName, uint newRollNo, string newBatch, uint newMarksOf4Subjects, bool newpassfail) public{
+        Name=newName;
+        RollNo=newRollNo;
+        Batch=newBatch;
+        MarksOf4Subjects=newMarksOf4Subjects;
+        passfail=newpassfail;
+    }
+function getReportCard()public view returns (string,uint,string,uint,bool){
+    return(Name,RollNo,Batch,MarksOf4Subjects,passfail);
+    }
+}
